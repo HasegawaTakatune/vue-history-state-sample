@@ -1,5 +1,13 @@
 @import './base.css';
 
+.input-wrapper {
+  margin-bottom: 3rem;
+}
+
+label {
+  display: block;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;

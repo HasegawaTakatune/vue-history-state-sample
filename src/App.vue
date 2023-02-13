@@ -1,25 +1,31 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink, RouterView } from "vue-router";
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <!-- <img
+      alt="Vue logo"
+      class="logo"
+      src="@/assets/logo.svg"
+      width="125"
+      height="125"
+    /> -->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Vue history storage sample" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/page1">Page1</RouterLink>
+        <RouterLink to="/page2">Page2</RouterLink>
+        <RouterLink to="/page3">Page3</RouterLink>
       </nav>
     </div>
   </header>
 
   <RouterView />
 </template>
-
 <style scoped>
 header {
   line-height: 1.5;
