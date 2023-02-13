@@ -1,0 +1,1 @@
+class r{static Save(t){const a={historyStorage:JSON.stringify(t)};window.history.replaceState(a,"")}static Get(){var s;const t=((s=window.history.state)==null?void 0:s.historyStorage)??"null";return JSON.parse(t)}}export{r as H};
