@@ -25,8 +25,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>Page1</h1>
   <div>
+    <h1>ステップ１</h1>
+
     <div class="input-wrapper">
       <label for="last-name">苗字</label>
       <input type="text" id="last-name" v-model="form.lastName" />

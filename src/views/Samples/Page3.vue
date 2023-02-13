@@ -23,8 +23,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>Page3</h1>
   <div>
+    <h1>ステップ３</h1>
     <div class="input-wrapper">
       <label for="hobby">趣味</label>
       <input type="text" id="hobby" v-model="form.hobby" />

@@ -5,22 +5,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <header>
-    <!-- <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    /> -->
-
     <div class="wrapper">
       <HelloWorld msg="Vue history storage sample" />
-
-      <nav>
-        <RouterLink to="/page1">Page1</RouterLink>
-        <RouterLink to="/page2">Page2</RouterLink>
-        <RouterLink to="/page3">Page3</RouterLink>
-      </nav>
     </div>
   </header>
 

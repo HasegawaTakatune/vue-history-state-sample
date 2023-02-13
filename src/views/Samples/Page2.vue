@@ -82,8 +82,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>Page2</h1>
   <div>
+    <h1>ステップ２</h1>
     <div class="input-wrapper">
       <label for="birthday">誕生日</label>
       <input type="date" id="birthday" v-model="form.birthday" :max="maxDate" />
